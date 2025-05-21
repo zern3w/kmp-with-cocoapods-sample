@@ -58,6 +58,11 @@ kotlin {
             source = path(project.file("../pod_dependency"))
         }
 
+        pod("pod_dependency2") {
+            version = "1.0.0"
+            source = path(project.file("../pod_dependency2"))
+        }
+
         /**
          * Example of usage local Pod declared as Subspec
          */
